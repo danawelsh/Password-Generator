@@ -15,7 +15,7 @@ function generatePassword() {
   var incLower = confirm ("Do you want to include a lowercase character?")
   var incUpper = confirm ("Do you want to include an uppercase character?")
   var incSpecialCharacter = confirm ("Do you want to include special characters?")
-
+// add if-statements for confirmed characters
   var chars = "";
   if (incNums == true) {
     chars += nums
@@ -29,10 +29,7 @@ function generatePassword() {
   if (incSpecialCharacter == true) {
     chars += spcialCharacter
   }
-
-
-  // 
-
+// generate for loop to create passwords
   for (var i = 0; i <= passwordLength; i++) {
   var randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
