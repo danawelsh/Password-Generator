@@ -7,4 +7,4 @@ The next series of prompts will involve character-type questions with the option
 Clicking "cancel" indicates a "no" to the prompt offered and "ok" indicates a "yes."
 Following the last prompt, a randomized password will be generated for the user.
 
-![demo image of password generator](./Password-Generator.png)
+![demo image of password generator](./assets/Password-Generator.png)
